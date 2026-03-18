@@ -7,7 +7,7 @@
 #define CROSS_TIME 5
 
 // the time in seconds the traffic lights should be alive
-#define END_TIME 40
+#define END_TIME 30
 
 // the array of arrivals for the intersection
 const Arrival input_arrivals[] = {{0, NORTH, STRAIGHT, 0}, {1, WEST, LEFT, 1}, {2, SOUTH, STRAIGHT, 7}, {3, SOUTH, LEFT, 13}};
